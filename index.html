@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Test headline</h1>
+    </body>
+</html>
