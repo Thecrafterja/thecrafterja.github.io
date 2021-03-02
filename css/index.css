@@ -1,0 +1,17 @@
+nav .wrapper {
+    background-color: red;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: auto;
+}
+
+.wrapper .logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
