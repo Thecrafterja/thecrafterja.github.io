@@ -1,17 +1,41 @@
+nav {
+    background: gray;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 65px;
+    line-height: 65px;
+}
+
 nav .wrapper {
     background-color: red;
     max-width: 1200px;
     padding: 0 30px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .wrapper .logo a {
     color: #fff;
     text-decoration: none;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.wrapper .nav-links {
+    display: inline-flex;
+}
+
+.nav-links li {
+   list-style: none; 
 }
 
 .nav-links li a {
     color: #fff;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
 }
 
